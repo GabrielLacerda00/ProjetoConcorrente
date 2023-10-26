@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Ler o arquivo csv
-df = pd.read_csv('results.csv', delimiter=';', decimal=',')
+df = pd.read_csv('bakery2.csv', delimiter=';', decimal=',')
 
 # Converter a coluna 'Tempo de Execução' para segundos
 df['Tempo de Execução'] = df['Tempo de Execução'].apply(lambda x: int(x.split('m')[0])*60 + float(x.split('m')[1].replace('s','').replace(',', '.')))

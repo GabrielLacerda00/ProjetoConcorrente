@@ -1,7 +1,18 @@
+#!/bin/bash
+
+# Verifique se o argumento foi fornecido
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <N>"
+    exit 1
+fi
+
+N=$1
+
+cat > semaforo.rs <<EOF
 use std::sync::{Arc, Barrier};
 use std::thread;
 
-const N: usize = 1000;  // número de threads
+const N: usize = $N;  // número de threads
 
 struct Bakery {
     choosing: [bool; N],
@@ -62,3 +73,6 @@ fn main() {
 
     println!("Todas as threads completaram.");
 }
+
+EOF
+

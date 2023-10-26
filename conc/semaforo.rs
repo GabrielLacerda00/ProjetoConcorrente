@@ -1,4 +1,4 @@
-use std::sync::{Arc, Mutex, Barrier};
+use std::sync::{Arc, Barrier};
 use std::thread;
 
 const N: usize = 1024;  // número de threads
@@ -16,13 +16,13 @@ impl Bakery {
         }
     }
 
-    fn max(&self, arr: [usize; N]) -> usize {
+    fn max(arr: [usize; N]) -> usize {
         *arr.iter().max().unwrap()
     }
 
     fn lock(&mut self, id: usize) {
         self.choosing[id] = true;
-        self.ticket[id] = self.max(self.ticket) + 1;
+        self.ticket[id] = Self::max(self.ticket) + 1;
         self.choosing[id] = false;
 
         for j in 0..N {
@@ -38,7 +38,7 @@ impl Bakery {
 }
 
 fn main() {
-    let bakery = Arc::new(Mutex::new(Bakery::new()));
+    let bakery = Arc::new(std::sync::Mutex::new(Bakery::new()));
     let barrier = Arc::new(Barrier::new(N));
 
     let handles: Vec<_> = (0..N).map(|i| {
@@ -62,3 +62,4 @@ fn main() {
 
     println!("Todas as threads completaram.");
 }
+
