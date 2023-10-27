@@ -7,30 +7,30 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 # Análise dos resultados
 
-## Para macOS M2
+## Bakery para macOS M2
 - Processador CPU de 8 núcleos (4 de desempenho e 4 de eficiência)
 - 8 gb RAM
 - 512 gb dísco (ssd)
 
-Tempo de execução com 2 threads: 
+Tempo de execução com 2 threads: 0m0.139s
 
-Tempo de execução com 4 threads:
+Tempo de execução com 4 threads: 0m0.133s
 
-tempo de execução com 8 threads:
+tempo de execução com 8 threads: 0m0.134s
 
-Tempo de execução com 16 threads:
+Tempo de execução com 16 threads: 0m0.127s
 
-Tempo de execução com 32 threads:
+Tempo de execução com 32 threads: 0m0.132s
 
-Tempo de execução com 64 threads:
+Tempo de execução com 64 threads: 0m0.143s
 
-Tempo de execução com 128 threads:
+Tempo de execução com 128 threads: 0m0.209s
 
-Tempo de execução com 256 threads:
+Tempo de execução com 256 threads: 0m0.373s
 
-Tempo de execução com 512 threads:
+Tempo de execução com 512 threads: 0m1.369s
 
-Tempo de execução com 1024 threads:
+Tempo de execução com 1024 threads: 0m3.999s
 
 
 
