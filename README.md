@@ -7,49 +7,35 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 # Análise dos resultados
 
-## Bakery para macOS M2
+## Para macOS M2
 - Processador CPU de 8 núcleos (4 de desempenho e 4 de eficiência)
 - 8 gb RAM
 - 512 gb dísco (ssd)
 
-Tempo de execução com 2 threads: 0m0.139s
-
-Tempo de execução com 4 threads: 0m0.133s
-
-tempo de execução com 8 threads: 0m0.134s
-
-Tempo de execução com 16 threads: 0m0.127s
-
-Tempo de execução com 32 threads: 0m0.132s
-
-Tempo de execução com 64 threads: 0m0.143s
-
-Tempo de execução com 128 threads: 0m0.209s
-
-Tempo de execução com 256 threads: 0m0.373s
-
-Tempo de execução com 512 threads: 0m1.369s
-
-Tempo de execução com 1024 threads: 0m3.999s
-
+### Bakery
 | Número de Threads | Tempo de execução |
 | -- | -- |
-| 2 |     |
-| 4 |     |
-| 6 |     |
-| 16|     |
-| 64|     |
-|128|     |
-|256|     |
-|512|     |
-|1024|     |
+| 2 |   0m0.139s  |
+| 4 |   0m0.133s  |
+| 6 |   0m0.134s  |
+| 16|   0m0.127s  |
+| 32|   0m0.132s  |
+| 64|   0m0.143s  |
+|128|   0m0.209s  |
+|256|   0m0.373s  |
+|512|   0m1.369s  |
+|1024|  0m3.999s  |
+
+### Semáforo
+
+
 
 ## Para Intel© Core™ i5-10300H CPU @ 2.50GHz
 - Processador com quatro núcleos físicos e 8 núcleos lógicos.
 - 16 GB de memória RAM 
 - 768.2 GB de disco (ssd)
 
-### Para Bakery
+### Bakery
 
 | Número de Threads | Tempo de execução |
 | -- | -- |
@@ -64,7 +50,7 @@ Tempo de execução com 1024 threads: 0m3.999s
 |512|0m0,346s  |
 |1024|0m1,302s |
 
-### Para Semáforo
+### Semáforo
 
 | Número de Threads | Tempo de execução |
 | -- | -- |
@@ -79,7 +65,7 @@ Tempo de execução com 1024 threads: 0m3.999s
 |512|0m0,352s  |
 |1024|0m1,316s |
 
-| Gráfico de comparação entre resultados|
+| Gráfico de comparação entre resultados |
 |--|
 |![grafico](./conc/assets/i5-bakery-vs-semaforo.png)
 
