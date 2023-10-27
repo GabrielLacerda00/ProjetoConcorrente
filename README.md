@@ -15,16 +15,16 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 ### Bakery
 | Número de Threads | Tempo de execução |
 | -- | -- |
-| 2 |   0m0.139s  |
-| 4 |   0m0.133s  |
-| 6 |   0m0.134s  |
-| 16|   0m0.127s  |
+| 2 |   0m0.302s  |
+| 4 |   0m0.395s  |
+| 6 |   0m0.092s  |
+| 16|   0m0.120s  |
 | 32|   0m0.132s  |
-| 64|   0m0.143s  |
-|128|   0m0.209s  |
-|256|   0m0.373s  |
-|512|   0m1.369s  |
-|1024|  0m3.999s  |
+| 64|   0m0.117s  |
+|128|   0m0.182s  |
+|256|   0m0.320s  |
+|512|   0m1.392s  |
+|1024|  0m3.955s  |
 
 ### Semáforo
 | Número de Threads | Tempo de execução |
