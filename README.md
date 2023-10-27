@@ -26,9 +26,7 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 |512|   0m1.392s  |
 |1024|  0m3.955s  |
 
-| Gráfico de  resultados |
-|--|
-|![grafico](./conc/assets/Figure_1BakeryM2.png)
+
 
 ### Semáforo
 | Número de Threads | Tempo de execução |
@@ -44,9 +42,6 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 |512|  0m1.425s   |
 |1024|  0m3.965s  |
 
-| Gráfico de  resultados |
-|--|
-|![grafico](./conc/assets/Figure_1SemaforoM2.png)
 
 | Gráfico de comparação entre resultados |
 |--|
