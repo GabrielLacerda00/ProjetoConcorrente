@@ -40,7 +40,9 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 |512|  0m1.425s   |
 |1024|  0m3.965s  |
 
-
+| Gráfico de comparação entre resultados |
+|--|
+|![grafico](./conc/assets/m2-bakery-vs-semaforo.png)
 
 
 ## Para Intel© Core™ i5-10300H CPU @ 2.50GHz
