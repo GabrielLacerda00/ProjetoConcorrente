@@ -29,16 +29,16 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 ### Semáforo
 | Número de Threads | Tempo de execução |
 | -- | -- |
-| 2 |     |
-| 4 |     |
-| 6 |     |
-| 16|     |
-| 32|     |
-| 64|     |
-|128|     |
-|256|     |
-|512|     |
-|1024|    |
+| 2 |  0m0.095s   |
+| 4 |  0m0.095s   |
+| 6 |  0m0.106s   |
+| 16|  0m0.112s   |
+| 32|  0m0.198s   |
+| 64|  0m0.166s   |
+|128|  0m0.464s   |
+|256|  0m0.375s   |
+|512|  0m1.425s   |
+|1024|  0m3.965s  |
 
 
 
