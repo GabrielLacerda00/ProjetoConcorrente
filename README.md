@@ -37,6 +37,8 @@ Tempo de execução com 1024 threads: 0m3.999s
 - 16 GB de memória RAM 
 - 768.2 GB de disco (ssd)
 
+### Para Bakery
+
 | Número de Threads | Tempo de execução |
 | -- | -- |
 | 2 | 0m0,001s |
@@ -50,6 +52,20 @@ Tempo de execução com 1024 threads: 0m3.999s
 |512|0m0,346s  |
 |1024|0m1,302s |
 
+### Para Semáforo
+
+| Número de Threads | Tempo de execução |
+| -- | -- |
+| 2 | 0m0,001s |
+| 4 | 0m0,001s |
+| 8 | 0m0,002s |
+| 16| 0m0,003s |
+| 32|0m0,007s  |
+| 64|0m0,020s  |
+|128|0m0,056s  |
+|256|0m0,100s  |
+|512|0m0,352s  |
+|1024|0m1,316s |
 
 
 
