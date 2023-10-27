@@ -67,6 +67,8 @@ Tempo de execução com 1024 threads: 0m3.999s
 |512|0m0,352s  |
 |1024|0m1,316s |
 
-
+| Gráfico de comparação entre resultados|
+|--|
+|![grafico](./conc/assets/i5-bakery-vs-semaforo.png)
 
 # Conclusão
