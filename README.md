@@ -89,14 +89,25 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 # Extra
 
-Durante a pesquisa deste projeto, foi efetuada também uma união de resultados com outro grupo
+Durante a pesquisa deste projeto, foi efetuada também uma união de resultados com outro grupo para avaliar a diferença de performance entre diferentes linguagens de programação, a partir de implementações da espera ocupada utilizando o algoritmo de bakery. Nesse caso, reutilizamos nossa implementação em Rust, e a avaliamos contra outra implementação desenvolvida em GO.
 
 ## Comparação da implementação do Bakery em GO vs Rust
 
 A implementação do código em Go foi disponibilizada pela dupla Guilherme Aureliano e Adriano Lira. Ambas as implementações em Go e Rust seguem o mesmo algoritmo de Bakery para controle de concorrência. As estruturas de dados e os mecanismos de sincronização são diferentes nas duas linguagens, refletindo as peculiaridades e as práticas recomendadas por cada uma.
 
+| Gráfico de comparação entre resultados |
+|--|
+|![grafico](./conc/bakery-go-vs-bakery-rust.jpeg)
+
+A partir do observado, é possível notar que o código em GO é menos performático do que o código em RUST à primeira vista. Entretanto o mesmo se mostra mais escalável, tendo uma performance melhor para um número maior de threads.
 
 
 # Conclusão
 
 Durante os experimentos realizados acima descritos, com o código provido, obtivemos um resultado que favorece o algorítmo de bakery sob situações em que temos um número maior de threads (no nosso caso, para uma quantificação de até 1024 valores). Entretanto, ainda assim, obtivemos resultados muito semelhantes, que ficam dentro de uma margem de erro de 5%. Considerando essa mesma margem e o número de threads apresentado, o resultado pode ser considerado equivalente ou muito semelhante. 
+
+É importante ressaltar que o projeto é apenas uma breve demonstração da capacidade da linguagem RUST ao lidar com problemas na área da programação concorrente, e incentivamos um aprofundamento de pesquisas nessa área,
+
+# Material Referência
+Livro: Rust Atomics and Locks, Low-Level Concurrency in Practice; Mara Bos.
+
