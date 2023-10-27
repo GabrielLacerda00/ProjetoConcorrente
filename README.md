@@ -3,7 +3,7 @@ Alunos: Carlos Alberto Pamplona Filho / Gabriel Rodrigues Oliveira Lacerda
 
 # Metodologia
 O objetivo deste trabalho, referente à disciplina de programação concorrente do período de 2023-1, consiste em entender a execução de programas de maneira concorrente na linguagem RUST, e, a partir disso, avaliar a diferença de performance entre algoritmo de bakery e o uso de semáforos como estratégias de implementação das travas, em problemas sem zona crítica (apenas representativa).
-Para avaliar o desempenho, a partir de também diferentes números de threads. A partir disso, analisamos os tempos de execução do código, monitorando sua performance.
+Para avaliar o desempenho, mediremos s os tempos de execução do código a partir de diferentes números de threads, monitorando sua performance.
 
 # Análise dos resultados
 
