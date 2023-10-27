@@ -87,7 +87,7 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 |--|
 |![grafico](./conc/assets/i5-bakery-vs-semaforo.png)
 
-## Extra
+# Extra
 
 # Conclusão
 
