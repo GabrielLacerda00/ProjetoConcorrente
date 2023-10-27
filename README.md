@@ -1,4 +1,4 @@
-# ProjetoConcorrente
+# Projeto de Programação Concorrente
 Alunos: Carlos Alberto Pamplona Filho / Gabriel Rodrigues Oliveira Lacerda
 
 # Metodologia
