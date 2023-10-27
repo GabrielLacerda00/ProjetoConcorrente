@@ -32,6 +32,23 @@ Tempo de execução com 512 threads: 0m1.369s
 
 Tempo de execução com 1024 threads: 0m3.999s
 
+## Para Intel© Core™ i5-10300H CPU @ 2.50GHz
+- Processador com quatro núcleos físicos e 8 núcleos lógicos.
+- 16 GB de memória RAM 
+- 768.2 GB de disco (ssd)
+
+| Número de Threads | Tempo de execução |
+| -- | -- |
+| 2 | 0m0,001s |
+| 4 | 0m0,001s |
+| 8 | 0m0,002s |
+| 16| 0m0,003s |
+| 32|0m0,007s  |
+| 64|0m0,019s  |
+|128|0m0,054s  |
+|256|0m0,104s  |
+|512|0m0,346s  |
+|1024|0m1,302s |
 
 
 
