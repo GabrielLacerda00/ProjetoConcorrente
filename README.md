@@ -27,6 +27,19 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 |1024|  0m3.999s  |
 
 ### Semáforo
+| Número de Threads | Tempo de execução |
+| -- | -- |
+| 2 |     |
+| 4 |     |
+| 6 |     |
+| 16|     |
+| 32|     |
+| 64|     |
+|128|     |
+|256|     |
+|512|     |
+|1024|    |
+
 
 
 
