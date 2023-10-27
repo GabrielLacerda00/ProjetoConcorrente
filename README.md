@@ -89,6 +89,14 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 # Extra
 
+Durante a pesquisa deste projeto, foi efetuada também uma união de resultados com outro grupo
+
+## Comparação da implementação do Bakery em GO vs Rust
+
+A implementação do código em Go foi disponibilizada pela dupla Guilherme Aureliano e Adriano Lira. Ambas as implementações em Go e Rust seguem o mesmo algoritmo de Bakery para controle de concorrência. As estruturas de dados e os mecanismos de sincronização são diferentes nas duas linguagens, refletindo as peculiaridades e as práticas recomendadas por cada uma.
+
+
+
 # Conclusão
 
-Durante os experimentos realizados acima descritos, com o código provido, obtivemos um resultado que favorece o algorítmo de bakery sob situações em que temos um número maior de threads (no nosso caso, para uma quantificação de até 1024 valores). Entretanto, ao prover um recurso mais poderoso em processamento de CPU (analisar resultados do i5 10300H), obtivemos resultados muito semelhantes, que ficam dentro de uma margem de erro de 5%, podendo-se considerar o resultado equivalente.
+Durante os experimentos realizados acima descritos, com o código provido, obtivemos um resultado que favorece o algorítmo de bakery sob situações em que temos um número maior de threads (no nosso caso, para uma quantificação de até 1024 valores). Entretanto, ainda assim, obtivemos resultados muito semelhantes, que ficam dentro de uma margem de erro de 5%. Considerando essa mesma margem e o número de threads apresentado, o resultado pode ser considerado equivalente ou muito semelhante. 
