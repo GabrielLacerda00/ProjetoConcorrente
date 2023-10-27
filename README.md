@@ -93,3 +93,5 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 |![grafico](./conc/assets/i5-bakery-vs-semaforo.png)
 
 # Conclusão
+
+Durante os experimentos realizados acima descritos, com o código provido, obtivemos um resultado que favorece o algorítmo de bakery sob situações em que temos um número maior de threads (no nosso caso, para uma quantificação de até 1024 valores). Entretanto, ao prover um recurso mais poderoso em processamento de CPU (analisar resultados do i5 10300H), obtivemos resultados muito semelhantes, que ficam dentro de uma margem de erro de 5%, podendo-se considerar o resultado equivalente.
