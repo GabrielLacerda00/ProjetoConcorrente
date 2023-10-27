@@ -109,5 +109,5 @@ Durante os experimentos realizados acima descritos, com o código provido, obtiv
 É importante ressaltar que o projeto é apenas uma breve demonstração da capacidade da linguagem RUST ao lidar com problemas na área da programação concorrente, e incentivamos um aprofundamento de pesquisas nessa área,
 
 # Material Referência
-Livro: Rust Atomics and Locks, Low-Level Concurrency in Practice; Mara Bos.
+BOS, M. In: Rust Atomics and Locks: Low-Level Concurrency in Practice. Primeira Edição. Sebastopol. O’Reilly Media, Inc., 2023.
 
