@@ -7,6 +7,11 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 # Análise dos resultados
 
+## Para macOS M2
+- Processador CPU de 8 núcleos (4 de desempenho e 4 de eficiência)
+- 8 gb RAM
+- 512 gb dísco (ssd)
+
 Tempo de execução com 2 threads: 
 
 Tempo de execução com 4 threads:
