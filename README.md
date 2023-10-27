@@ -111,6 +111,6 @@ Durante os experimentos realizados acima descritos, com o código provido, obtiv
 # Material Referência
 BOS, M. In: Rust Atomics and Locks: Low-Level Concurrency in Practice. Primeira Edição. Sebastopol. O’Reilly Media, Inc., 2023.
 
-[Código utilizando bakery](./conc/bakery.rs)
-[Código utilizando semáforos](./conc/semaforo.rs)
+- [Código utilizando bakery](./conc/bakery.rs)
+- [Código utilizando semáforos](./conc/semaforo.rs)
 
