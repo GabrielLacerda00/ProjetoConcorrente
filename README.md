@@ -97,7 +97,7 @@ A implementação do código em Go foi disponibilizada pela dupla Guilherme Aure
 
 | Gráfico de comparação entre resultados |
 |--|
-|![grafico](./conc/bakery-go-vs-bakery-rust.jpeg)
+|![grafico](./conc/assets/bakery-go-vs-bakery-rust.jpeg)
 
 A partir do observado, é possível notar que o código em GO é menos performático do que o código em RUST à primeira vista. Entretanto o mesmo se mostra mais escalável, tendo uma performance melhor para um número maior de threads.
 
