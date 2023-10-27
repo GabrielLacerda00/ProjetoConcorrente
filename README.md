@@ -9,7 +9,7 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 ## Para macOS M2
 - Processador CPU de 8 núcleos (4 de desempenho e 4 de eficiência)
-- 8 gb RAM
+- 8 gb memória RAM
 - 512 gb dísco (ssd)
 
 ### Bakery
