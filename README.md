@@ -28,7 +28,7 @@ Para avaliar o desempenho, a partir de também diferentes números de threads. A
 
 | Gráfico de comparação entre resultados |
 |--|
-|![grafico](./conc/assets/.png)
+|![grafico](./conc/assets/Figure_1BakeryM2.png)
 
 ### Semáforo
 | Número de Threads | Tempo de execução |
